@@ -1,0 +1,23 @@
+{
+  "name": "laboratorio-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaldeon365/laboratorio-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbaldeon365/laboratorio-ci/issues"
+  },
+  "homepage": "https://github.com/jbaldeon365/laboratorio-ci#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
