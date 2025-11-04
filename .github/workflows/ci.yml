@@ -16,6 +16,10 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm list jest  # Verifica que Jest esté instalado
+      - name: Fix permissions for jest
+        run: sudo chmod +x node_modules/.bin/jest
       - name: Run tests
         run: npm test
